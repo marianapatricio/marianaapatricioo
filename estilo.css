@@ -222,7 +222,7 @@ p {
 	   color: #e61f93;
 	  }	
 @media screen and (min-width: 800px) and (max-width:1280px){/*nest hub max*/
-		#footer { margin-left:0px;}
+		#footer { margin-left:0px; margin top: 70px;}
 		#footer1 { margin-left:-127px;}
 		#footer2 { margin-left:-130px;}
 		#footer3 { margin-left:0px;}
