@@ -1,0 +1,229 @@
+﻿*{
+   margin: 0px;
+   padding: 0px;
+   }
+   
+body{
+      background:white;
+      font-family: arial;
+	  margin-top: 0 px;
+	}
+#header{
+       width: 1600px;
+	   height: 260px;
+	   margin: 0px auto;
+	   background:#e61f93;
+	   	}	
+#header h1{
+	display: block; 
+	float:left;
+}
+#nav{ 
+		  list-style:none; 
+		  padding-left: 0px;
+		  display: block;
+		  float: left;
+		  margin-left: 130px;	
+		  margin-top:60px;	  
+	     }
+#nav img{
+	    display: block;
+        margin: 0 auto;
+		float:top;
+		position:center;
+}
+#nav li {
+	      float:left;
+		  margin-left: 80px;
+		  margin-right:80px;
+		  }
+#nav a {
+	      text-decoration: none;
+		  text-transform: uppercase;
+		  padding-top: 8px;
+		  color:#FFFF00;
+		  font-weight: 20px;
+		  }
+#nav a:hover{
+		 	border-bottom: 5px solid ;
+			 }
+#banner img{
+    margin-top: 10px;
+	border-radius: 10px;
+}
+
+#section{
+		   width:1600px;
+		   height:200px;
+		   background:#FFFF00;
+		   margin:15px auto; 
+		   border-radius: 30px;
+		   }
+.article{
+		   width:250px;
+		   float:left;
+		   margin:5px 8px;
+		   }
+.article h1{
+		     font-size: 22px;
+			 font-weight: bold;
+			 text-transform:uppercase;
+			 text-align:center;
+		   }	
+.article p{
+		   padding-top:5px;
+		   font-size: 12px;
+		   text-align:justify;
+		   }		 
+.article  h1{
+	        font-weight:20px;
+		 
+			color:#e61f93;
+ }
+ .article  h3{
+	        font-weight:5px;
+			color:#00BFFF;
+ }
+.donuts-container {
+            max-width: 1200px;
+            margin: 2px auto;
+            padding: 20px;
+        }
+
+.donut {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+.donut-image {
+            flex: 1;
+            max-width: 50%;
+            margin: 0 10px;
+			width:300px;
+			height:200px;
+			border-radius:20px;
+        }
+
+.donut-description {
+            flex: 1;
+            margin: 0 10px;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow:white;
+        }
+
+h2 {
+            font-size: 24px;
+            margin-top: 0;
+			color:#FFFF00;
+        }
+
+p {
+            font-size: 16px;
+            line-height: 1.5;
+			color:#e61f93;
+        }
+#section_c{
+		   width:1600px;
+		   height:430px;
+		   background:white;
+		   margin:1px auto; 
+		   }
+.contact{
+		   width:400px;
+		   height:300px;
+		   margin:5px 5px;
+		   float:left;
+		   color:#FFFF00;
+		   }	
+.contact h1{
+		   font-size:25px;
+		   color:#FFFF00;
+		   }
+		   
+.contact textarea{
+		     resize: none;
+		   }	
+.contact1{
+		   width:350px;
+		   height:300px;
+		   margin-left:15px auto;
+		   float:left;
+		   text-align:center;
+		   color:#FFFF00;
+		  }
+.contact1 h1{
+		margin-top: 260px;
+		font-family: arial;
+		font-size: 18px;
+		font-weight: bold;
+		color:#FFFF00;
+	  }
+.contact1 p{
+		   font-size: 13px;
+		   color:#FFFF00;
+		   }	  
+
+#footer{
+	   width: 1600px;
+	   height: 100px;
+	   background:#FFFF00;
+	   float:left;
+	   margin: 7px auto;
+	   padding-top:25px;
+	   margin-left:0px;
+	   }
+#footer p{
+	   font-size: 15px;
+	   text-align: center;
+	   color: #e61f93;
+	   }
+
+#footer1{
+	   width: 1726px;
+	   height: 100px;
+	   background:#00BFFF;
+	   float:left;
+	   margin: 95px auto;
+	   padding-top:75px;
+	   margin-left:-125px;
+	   }
+#footer1 p{
+	   font-size: 15px;
+	   text-align: center;
+	   color: #e61f93;
+	   }
+#footer2{
+	   width: 1726px;
+	   height: 100px;
+	   background:#00BFFF;
+	   float:left;
+	   margin: 95px auto;
+	   padding-top:75px;
+	   margin-left:-125px;
+	   }
+#footer2 p{
+	   font-size: 15px;
+	   text-align: center;
+	   color: #e61f93;
+	   }
+#footer3{
+	   width: 1600px;
+	   height: 75px;
+	   background:#FFFF00;
+	   float:left;
+	   margin: 7px auto;
+	   padding-top:0px;
+	   margin-left:0px;
+	   }
+#footer3 p{
+	   font-size: 15px;
+	   text-align: center;
+	   color: #e61f93;
+	  }	
+@media screen and (min-width: 800px) and (max-width:1280px){/*nest hub max*/
+		#footer { margin-left:0px;}
+		#footer1 { margin-left:-127px;}
+		#footer2 { margin-left:-130px;}
+		#footer3 { margin-left:0px;}
+}
