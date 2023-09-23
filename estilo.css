@@ -234,8 +234,14 @@ p {
 		   margin:10px auto; 
 		   border-radius: 30px;
 		   }
+		#section_c{
+		   width:1600px;
+		   height:430px;
+		   background:white;
+		   margin:1px auto; 
+		   }
 		#footer { margin-left:0px; margin top: 200px;}
 		#footer1 { margin-left:-127px; margin top: 420px;}
-		#footer2 { margin-left:-130px;}
-		#footer3 { margin-left:0px;}
+		#footer2 { margin-left:-130px; margin top: 423px;}
+		#footer3 { margin-left:0px; margin top: 200px;}
 }
