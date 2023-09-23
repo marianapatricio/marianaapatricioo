@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> CONTACT </title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/png" href="images/donuts.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script language="javascript" type="text/javascript">
+        function validate() {
+            var name = form1.name.value;
+            var email = form1.email.value;
+            var phone = form1.phone.value;
+
+            if (name === "") {
+                alert('Please enter your name');
+                form1.name.focus();
+                return false;
+            }
+
+            if (email === "") {
+                alert('Please enter your email');
+                form1.email.focus();
+                return false;
+            }
+            
+            if (phone === "") {
+                alert('Please fill in your phone number');
+                form1.phone.focus();
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="header">
+    <ul id="nav">
+        <img src="img/logo.png" width="160" height="120">
+        <br><br>
+                <li><a href="indexen.html" >Home</a></li>
+				<li><a href="donutsen.html">Donuts</a></li>
+				<li><a href="flavorsen.html">Flavors</a></li>
+				<li><a href="contacten.html">Order Yours Now!</a></li>
+				<li><a href="index.html">PT -</a></li>
+				<li><a href="indexen.html"> EN</a></li>
+    </ul>
+</div>
+<div id="section_c">
+    <div class="contact">
+	<form name="form1" action="confirmando.html" method="post">
+        <h1> Leave your information and get coupons to buy any donut! </h1>
+        <form name="contact" action="#" method="post">
+            <table border="0">
+                <tr>
+                    <td> <label>Name</td>
+                </tr>
+                <tr>
+                    <td><input type="text" required="required" name="name" id="text1" size="50"
+                               placeholder="Fill in your name here!" autofocus/></label></td>
+                </tr>
+                <tr>
+                    <td><label>Email</td>
+                </tr>
+                <tr>
+                    <td><input type="email" required="required" name="email" id="text2" size="50"
+                               placeholder="Fill in your email here!" autofocus/></label></td>
+                </tr>
+                <tr>
+                    <td><label>Phone</td>
+                </tr>
+                <tr>
+                    <td><input type="tel" required="required" name="phone" id="text3" size="50"
+                               placeholder="(***)***-****" autofocus/></label></td>
+                </tr>
+                <tr>
+                    <td> <label>Complaints?</td>
+                </tr>
+                <tr>
+                    <td><textarea id="textarea" name="textarea" rows="10" cols="52"
+                                  placeholder="Leave a comment here:"></textarea></td></label>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Send"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<div id="footer3">
+    <div align="right"> <a href="#"><img src="img/seta.png" width="3%"></a></div>
+    <p>Mariana Freitas 2023 - &copy; All rights reserved - Academic work - Non-profit</p>
+</div>
+</body>
+</html>
