@@ -222,8 +222,26 @@ p {
 	   color: #e61f93;
 	  }	
 @media screen and (min-width: 800px) and (max-width:1280px){/*nest hub max*/
-		#footer { margin-left:0px;}
-		#footer1 { margin-left:-127px;}
-		#footer2 { margin-left:-130px;}
-		#footer3 { margin-left:0px;}
+		#nav img{
+	           display: block;
+                   margin: 0 auto;
+		   float:top;
+		   position:center;
+	        #section{
+		   width:1600px;
+		   height:540px;
+		   background:#FFFF00;
+		   margin:10px auto; 
+		   border-radius: 30px;
+		   }
+		#section_c{
+		   width:1600px;
+		   height:430px;
+		   background:white;
+		   margin:1px auto; 
+		   }
+		#footer { margin-left:0px; margin top: 200px;}
+		#footer1 { margin-left:-127px; margin top: 420px;}
+		#footer2 { margin-left:-130px; margin top: 423px;}
+		#footer3 { margin-left:0px; margin top: 200px;}
 }
